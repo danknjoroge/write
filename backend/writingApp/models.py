@@ -6,6 +6,7 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 
 
+
 # Create your models here.
 class User(AbstractUser):
     '''Boolean fields to select the type of account'''
